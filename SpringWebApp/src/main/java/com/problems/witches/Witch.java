@@ -15,6 +15,7 @@ public class Witch {
 		try {
 			line = br.readLine();
 			N = Long.parseLong(line);
+			
 			Witch w = new Witch();
 			for (int i = 1; i <= N; i++) {
 				try {
